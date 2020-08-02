@@ -1,0 +1,119 @@
+h1 {
+	text-align: center;
+	font-family: calibri;
+}
+
+h3 {
+	text-align: left;
+	font-family: calibri;
+}
+
+p {
+	padding-left: 20px;
+}
+
+p img {
+	padding-bottom: 5px;
+	padding-top: 10px;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+/*body {
+	margin: 0;
+}*/
+
+.banner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	/*background-color: green;*/
+}
+
+.left_banner {
+	width: 30%;
+	text-align: center;
+	color: green;
+	text-shadow: 1px 1px 2px gray;
+	font-family: arial black;
+	font-weight: bold;
+	font-size: 30px; 
+}
+
+.right_banner {
+	width: 69%;
+}
+
+.title {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.negative {
+	background-color: red;
+	width: 33%;
+}
+
+.doubtful {
+	background-color: yellow;
+	width: 33%;
+}
+
+.positive {
+	background-color: green;
+	width: 33%;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.quotes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.quotes div {
+	width: 60%;
+	text-align: justify;
+}
+
+.content {
+	width: 33%;
+	margin-top: 10px;
+}
+
+.block {
+	margin-top: 10px;
+	border-radius: 10px;
+	padding: 14px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	font-family: calibri;
+	font-size: 18px;
+}
+
+.note {
+	font-size: 12px;
+	font-family: Verdana;
+}
+
+.tag {
+	font-size: 12px;
+	font-family: Verdana;
+	color: green;
+	font-weight: bold;
+}
+
+.here {
+	color: green;
+	font-size: 24px;
+	font-weight: bold;
+	text-shadow: gray 1px 1px 2px;
+}
